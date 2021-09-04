@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar content-wrapper">
+        <h1 id="home" class="logo"><a href="#home"> Student Name</a></h1>
+        <ul class="nav-item">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="content-wrapper">
+        <div class="row">
+          <div class="col-1">
+            <p class="intro-text">
+              Hi! I'm a front-end developer who loves responsive design and css.
+              I recently finished a degree in front-end web development at
+              Treehouse and I'm excited to put all my skills to use!
+            </p>
+          </div>
+          <div class="col-2">
+            <img
+              src="images/responsive-layout-profile.png"
+              alt="user profile"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content-wrapper">
+        <h2 class="portfolio-heading">portfolio</h2>
+        <div id="portfolio" class="portfolio">
+          <div class="portfolio-item">
+            <img src="images/portfolio-1.png" alt="portfolio One" />
+
+            <h3>Marketing Page</h3>
+            <p>
+              This project shows the front page of a marketing website meant for
+              a specific business I'm interested in.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="images/portfolio-2.png" alt="portfolio One" />
+
+            <h3>Search Page</h3>
+            <p>
+              This project searches through a specific database to find
+              information that the user is trying to look up.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="images/portfolio-3.png" alt="portfolio One" />
+
+            <h3>Travel App</h3>
+            <p>
+              This project compares pravel times based on transportation methods
+              and tells you the best one.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="images/portfolio-4.png" alt="portfolio One" />
+
+            <h3>Map of Favorite Spots</h3>
+            <p>
+              This project mapping apis to plot points for my favorite spots in
+              the city for a do-it-yourself walking tour.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="images/portfolio-5.png" alt="portfolio One" />
+
+            <h3>Photo Gallery</h3>
+            <p>
+              This project shows pictures from a recent trip to viewers and
+              allows them to easily navigate through photos.
+            </p>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="images/portfolio-6.png" alt="portfolio One" />
+
+            <h3>Calculator</h3>
+            <p>
+              Someone can key in any number they want, and press the big blue
+              button to get the result.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="content-wrapper">
+        <div class="footer-row">
+          <div class="footer-contact">
+            <h3 id="contact">Contact</h3>
+            <p>
+              If you are interested in chatting or want more information about
+              what I've been working on, I'd love to hear from you!
+            </p>
+            <br />
+            <p>Phone &nbsp;<span>+234(805)6475829</span></p>
+            <p>Email &nbsp;<span>me@mydomain.com</span></p>
+          </div>
+          <nav class="footer-nav">
+            <h1 class="footer-logo"><a href="#home"> Student Name</a></h1>
+
+            <div class="footer-nav-item">
+              <ul class="nav-item">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <h1 class="top"><a href="#home"> Back to top</a></h1>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
